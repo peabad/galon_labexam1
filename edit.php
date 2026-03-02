@@ -49,7 +49,7 @@ if (isset($_POST['submit'])) {
         <h2 class="text-center">Edit Student</h2>
 
         <form method="POST">
-
+            
             <div class="mb-3">
                 <label for="id" class="form-label">ID</label>
                 <input type="text" class="form-control" name="id" value="<?php echo $users['student_id']; ?>" readonly>
@@ -64,7 +64,7 @@ if (isset($_POST['submit'])) {
                 <label for="email" class="form-label">Email</label>
                 <input type="email" class="form-control" id="email" name="email" value="<?php echo $users['email']; ?>" required>
             </div>
-
+            
             <div class="mb-3">
                 <label for="course" class="form-label">Course</label>
                 <input type="text" class="form-control" id="course" name="course" value="<?php echo $users['course']; ?>" required>

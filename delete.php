@@ -1,5 +1,5 @@
 <?php
-include "db.php";
+include "../db.php";
 $id = $_GET['id'];
 $id = mysqli_real_escape_string($conn, $id);
 

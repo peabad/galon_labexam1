@@ -36,7 +36,7 @@ if (!$result) {
         <div class="mb-1 d-grid gap-2">
         <button class="btn btn-primary btn-lg btn-block mb-3" onclick="window.location.href='create.php'">Add Student</button>
         </div>
-        
+
         <?php while($row = mysqli_fetch_assoc($result)): ?>
         <div class="card mb-3">
             <div class="card-body col-md-6">
